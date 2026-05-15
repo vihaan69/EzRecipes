@@ -1,6 +1,7 @@
 # EzRecipes 
 
 <div align="center">
+ 
 ![Platform](https://img.shields.io/badge/platform-Paper%20%7C%20Spigot-FFD700?style=flat-square&labelColor=1a1a1a)
 ![Version](https://img.shields.io/badge/minecraft-1.21%2B-FFD700?style=flat-square&labelColor=1a1a1a)
 ![License](https://img.shields.io/badge/license-MIT-FFD700?style=flat-square&labelColor=1a1a1a)
