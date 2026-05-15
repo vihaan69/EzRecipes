@@ -1,9 +1,12 @@
 # EzRecipes 
 
+<div align="center">
 ![Platform](https://img.shields.io/badge/platform-Paper%20%7C%20Spigot-FFD700?style=flat-square&labelColor=1a1a1a)
 ![Version](https://img.shields.io/badge/minecraft-1.21%2B-FFD700?style=flat-square&labelColor=1a1a1a)
 ![License](https://img.shields.io/badge/license-MIT-FFD700?style=flat-square&labelColor=1a1a1a)
 ![Build](https://img.shields.io/badge/build-Maven-FFD700?style=flat-square&labelColor=1a1a1a)
+ 
+</div>
 
 EzRecipes is a powerful recipe management plugin for Paper and Spigot servers, built for performance, flexibility, and full customization. Create and manage custom crafting recipes with ease and take full control of your server’s crafting system!
 
