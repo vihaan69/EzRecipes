@@ -7,6 +7,7 @@ import com.ezrecipes.listener.GuiListener;
 import com.ezrecipes.manager.RecipeManager;
 import com.ezrecipes.util.TextUtil;
 import org.bukkit.plugin.java.JavaPlugin;
+import org.bstats.bukkit.Metrics;
 
 public class EzRecipes extends JavaPlugin {
 
@@ -38,9 +39,13 @@ public class EzRecipes extends JavaPlugin {
         fileManager.loadAllConfigs();
         recipeManager.loadAllRecipes();
 
+        int pluginId = 31584;
+        Metrics metrics = new Metrics(this, pluginId);
+
         getLogger().info("EzRecipes enabled! Simple recipes for your SMP.");
     }
 
+    @Override
     public void onDisable() {
         recipeManager.unregisterAllRecipes();
     }
